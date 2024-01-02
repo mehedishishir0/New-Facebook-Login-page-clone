@@ -1,0 +1,492 @@
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .contenar {
+  overflow: hidden;
+}
+/* <!----------S T A R T      P R O F I L E    P A R T-----------!> */
+header .contenar .profile-part {
+  width: 42%;
+  overflow: hidden;
+  float: left;
+  height: 480px;
+  box-sizing: border-box;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+header .contenar .profile-part .profile-main {
+  margin-left: 10px;
+}
+
+header .contenar .profile-part .Hadding-tag .recent-log h1 {
+  color: #333333ff;
+  margin-top: 0%;
+  font-weight: normal;
+  font-size: 2.2rem;
+}
+header .contenar .profile-part .Hadding-tag .click h4 {
+  color: #606770ff;
+  margin-top: -2%;
+  font-size: 0.9rem;
+}
+header .contenar .profile-part .login-icon-pic img {
+  cursor: pointer;
+  height: 10rem;
+  margin-top: -0.2px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+header .contenar .profile-part .login-icon-pic .profile-pic-name h3 a {
+  color: #2c2e33ff;
+  text-decoration: none;
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
+}
+header .contenar .profile-part .login-icon-pic .profile-pic-name h3 {
+  margin-top: 1px;
+  font-weight: normal;
+}
+header .contenar .profile-part .facebook-pic {
+  margin-left: -20px;
+}
+
+header .contenar .profile-part .login-icon-pic .profile-pic-name {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.601),
+    -1px -1px 3px rgba(0, 0, 0, 0.626);
+  padding-bottom: 0.1rem;
+  float: left;
+}
+header .contenar .profile-part .login-icon-pic .box-shadow {
+  width: 28%;
+  margin-left: 20px;
+  height: 209px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.613),
+    -1px 0px 4px rgba(0, 0, 0, 0.556);
+  border-radius: 4px;
+  float: left;
+}
+
+header .contenar .profile-part .login-icon-pic .add-account {
+  background-color: #f5f6f7ff;
+}
+header .contenar .profile-part .add-name {
+  background-color: #ffffffff;
+  margin-top: -15%;
+}
+
+header .contenar .profile-part .login-icon-pic h3 a {
+  color: #297af2ff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: normal;
+}
+/* <!----------  E  N  D    P R O F I L E    P A R T------- 
+
+/*------------- S T A R T   M A I N   R E G I   P A R T_________---------*/
+
+.registation {
+  float: left;
+  margin-left: 10px;
+  margin-top: 100px;
+  height: 500px;
+  width: 580px;
+}
+.registation .regi-contenar {
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 370px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #ffffffff;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.528);
+}
+.registation .regi-contenar .regi-login .email-or-phone input {
+  width: 76%;
+  padding: 15px 30px;
+  margin-top: 16px;
+  border-radius: 7px;
+  outline: none;
+  border: #848587ff 1px solid;
+  font-size: 17px;
+  color: #8f939cff;
+}
+.registation .regi-contenar form {
+  margin-left: 20px;
+}
+
+.registation .regi-contenar .regi-login .login-button input[type="submit"] {
+  background-color: #297cf0ff;
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-left: 6px;
+  width: 87%;
+  cursor: pointer;
+}
+.registation .regi-contenar .regi-login .forget {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.registation .regi-contenar .regi-login .forget a {
+  color: #297cf0ff;
+  text-decoration: none;
+  margin-left: 140px;
+  font-size: 15px;
+}
+.registation .regi-contenar .regi-login hr {
+  margin-right: 60px;
+  margin-left: 20px;
+}
+.registation .regi-contenar .regi-login .create-new button {
+  background-color: #4eb833ff;
+  border: none;
+  color: #fff8bdff;
+  padding: 15px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-left: 100px;
+  margin-top: 20px;
+  border: 1px solid #89cf76ff;
+  cursor: pointer;
+}
+.registation .regi-contenar .create-page p {
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.registation .regi-contenar .create-page p a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+/*--------------------Hover-----------*/
+.registation .regi-contenar .create-page p a:hover {
+  text-decoration: underline;
+}
+.registation .regi-contenar .regi-login .forget a:hover {
+  text-decoration: underline;
+}
+
+.registation .regi-contenar .regi-login .email-or-phone input:focus {
+  border: 1px solid #297cf0ff;
+}
+
+/*------------- S T A R T   M A I N   R E G I   P A R T_________---------*/
+
+/*--------------------
+                 D E N Z A R Z O N E
+                 -----------------------------*/
+
+@media screen and (max-width: 1289px) {
+  header .contenar .profile-part {
+    width: 31%;
+    margin-left: 8rem;
+  }
+  header .contenar .profile-part .facebook-pic img {
+    width: 50%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 40%;
+  }
+  .registation {
+    margin-left: 90px;
+  }
+  .registation .regi-contenar {
+    width: 73%;
+    height: 411px;
+    margin-left: 126px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    padding: 22px 30px;
+  }
+}
+
+@media screen and (max-width: 1156px) {
+  .registation {
+    margin-left: 4px;
+  }
+}
+@media screen and (max-width: 1031px) {
+  header .contenar .profile-part {
+    width: 37%;
+    margin-left: 6rem;
+  }
+
+  .registation {
+    width: 520px;
+  }
+  .registation .regi-contenar {
+    width: 66%;
+    height: 360px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    padding: 14px 24px;
+  }
+  .registation .regi-contenar .regi-login .login-button input[type="submit"] {
+    font-size: 17px;
+    font-weight: bold;
+    width: 81%;
+    margin-left: 5%;
+  }
+  .registation .regi-contenar .regi-login .forget a {
+    margin-left: 24%;
+  }
+  .registation .regi-contenar .regi-login hr {
+    margin-right: 29px;
+    margin-left: 11px;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    margin-left: 57px;
+  }
+  .registation .regi-contenar .create-page p {
+    font-size: 12px;
+    margin-left: 17px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .contenar .profile-part {
+    margin-left: 6rem;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 37%;
+  }
+  .registation {
+    float: left;
+    margin-left: 115px;
+    margin-top: 123px;
+    height: 500px;
+    width: 345px;
+  }
+  .registation .cregi-ontenar {
+    width: 100%;
+    margin-left: 1px;
+    height: 333px;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  header .contenar .profile-part {
+    margin-left: 2rem;
+    width: 41%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 44%;
+  }
+  .registation {
+    margin-left: 86px;
+  }
+}
+@media screen and (max-width: 808px) {
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 43%;
+  }
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    width: 41%;
+    height: 195px;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 41%;
+    height: 195px;
+    margin-left: 13px;
+  }
+  .registation {
+    margin-left: 48px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    padding: 11px 8px;
+    font-size: 15px;
+  }
+  .registation .regi-contenar .regi-login .login-button input[type="submit"] {
+    font-size: 14px;
+    width: 71%;
+    margin-left: 5%;
+  }
+  .registation {
+    margin-left: 20px;
+    margin-top: 22%;
+  }
+  .registation .regi-contenar {
+    height: 324px;
+    margin-left: 80px;
+  }
+  .registation .regi-contenar .regi-login .forget a {
+    margin-left: 35px;
+    font-size: 11px;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    font-size: 10px;
+    margin-left: 18px;
+    width: 69%;
+  }
+  .registation .regi-contenar .create-page p {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 808px) {
+  header .contenar .profile-part .add-name h3 {
+    font-size: 16px;
+  }
+  header .contenar .profile-part .login-icon-pic .profile-pic-name h3 a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 672px) {
+  header .contenar .profile-part .profile-pic-name img {
+    height: 133px;
+  }
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    height: 170px;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    height: 169px;
+  }
+
+  header .contenar .profile-part .login-icon-pic .add-account {
+    height: 133px;
+  }
+  header .contenar .profile-part .login-icon-pic .add-account .plus {
+    height: 133px;
+  }
+  header .contenar .profile-part .login-icon-pic .add-account .plus img {
+    height: 135px;
+  }
+
+  header .contenar .profile-part .login-icon-pic .box-shadow .add-name h3 a {
+    font-size: 15px;
+  }
+  header .contenar .profile-part .Hadding-tag .recent-log h1 {
+    font-size: 25px;
+  }
+  .registation {
+    margin-left: -49px;
+  }
+  .registation .regi-contenar {
+    margin-left: 86px;
+    height: 268px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    padding: 8px 5px;
+    font-size: 9px;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    width: 60%;
+    padding: 8px 0px;
+    margin-top: 8px;
+    margin-left: 24px;
+  }
+  header .contenar .profile-part .facebook-pic img {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 555px) {
+  header .contenar .profile-part {
+    width: 100%;
+    float: none;
+    margin-left: 20%;
+    margin-top: 0%;
+    height: 372px;
+  }
+
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    width: 24%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 24%;
+  }
+  header .contenar .profile-part .add-name {
+    margin-top: -9px;
+  }
+  .registation {
+    margin-top: 0%;
+    width: 100%;
+    float: none;
+  }
+  .registation .regi-contenar {
+    margin-left: 25%;
+  }
+  .registation .regi-contenar .regi-login .forget a {
+    margin-left: 103px;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    margin-left: 56px;
+  }
+}
+.registation .regi-contenar .create-page p {
+  font-size: 10px;
+}
+@media screen and (max-width: 444px) {
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 29%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow .add-name h3 a {
+    margin: 14%;
+  }
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    width: 29%;
+  }
+  .registation .regi-contenar {
+    margin-left: 28%;
+  }
+  .registation .regi-contenar .regi-login .forget a {
+    margin-left: 64px;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    margin-left: 35px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    width: 30%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 30%;
+  }
+  header .contenar .profile-part {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 399px) {
+  header .contenar .profile-part .login-icon-pic .profile-pic-name {
+    width: 40%;
+  }
+  header .contenar .profile-part .login-icon-pic .box-shadow {
+    width: 40%;
+  }
+  header .contenar .profile-part {
+    margin-left: 5%;
+  }
+  header .contenar .profile-part .facebook-pic img {
+    width: 70%;
+  }
+  .registation .regi-contenar {
+    width: 70%;
+    margin-left: 96px;
+  }
+  .registation .regi-contenar .regi-login .forget a {
+    margin-left: 19%;
+  }
+  .registation .regi-contenar .regi-login .create-new button {
+    margin-left: 20px;
+  }
+  .registation .regi-contenar .regi-login .email-or-phone input {
+    padding: 8px 15px;
+  }
+  .registation .regi-contenar .regi-login .login-button input[type="submit"] {
+    width: 80%;
+  }
+}
+/*--------------------------- E N D----------------*/
